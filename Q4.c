@@ -9,7 +9,7 @@ int main(){
     cresc_pedro = 3;
     anos = 0;
     
-    while(pedro <= jose){
+    for(int pedro = 110, jose = 150 ; pedro <= jose; pedro++){
         jose += cresc_jose;
         pedro += cresc_pedro;
         anos++;
